@@ -51,51 +51,19 @@ Prediction Module
 
 ▶️ How to Run Project
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Clone the repository
+1.Clone the repository
 
-git clone <your-repo-link>
-
-
-Install dependencies
-
-pip install -r requirements.txt
+**git clone <your-repo-link>**
 
 
-Run the project
+2.Install dependencies
 
-python main.py
+**pip install -r requirements.txt**
 
-📂 File Arrangement Flowchart
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Project Folder
-│
-├── dataset/
-│   ├── Hammer/
-│   ├── Pliers/
-│   ├── Gasoline_Can/
-│   └── Pebble/
-│
-├── models/
-│   ├── feature_extractor.h5
-│   ├── decision_tree.pkl
-│   ├── knn.pkl
-│   ├── perceptron.pkl
-│   └── hybrid_model.pkl
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── feature_extraction.py
-│   ├── training.py
-│   ├── evaluation.py
-│   └── prediction.py
-│
-├── results/
-│   ├── confusion_matrix.png
-│   ├── roc_curve.png
-│
-├── main.py
-├── requirements.txt
-└── README.md
+
+3.Run the project
+
+**python main.py**
 
 🎯 Future Enhancements
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
